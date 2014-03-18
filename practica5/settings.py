@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'P5',
+    'lettuce.django',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -52,6 +53,9 @@ ROOT_URLCONF = 'practica5.urls'
 
 WSGI_APPLICATION = 'practica5.wsgi.application'
 
+TEMPLATE_DIRS = (
+ 	'/home/noelia/shared/django/practica5/P5/templates',
+)
 
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
